@@ -24,6 +24,7 @@
    `https://raw.githubusercontent.com/StopBeingLogical/seshat/main/current.md`
 
 4. **Identify the active project** via `projects.md`, then fetch the project's `SESSION_SEED.md` from its repo for deep technical context
+   - If a project has no `SESSION_SEED.md` yet, use the template at `templates/SESSION_SEED.md` to initialize one
 
 5. **Fetch `infrastructure.md`** if the task involves file paths, deployments, git operations, or SSH access
    `https://raw.githubusercontent.com/StopBeingLogical/seshat/main/infrastructure.md`
@@ -46,3 +47,4 @@ If you have filesystem access, prefer these local paths over remote URLs:
 
 ## Changelog
 - **2026-03-17:** Initial version
+- **2026-03-17 (V3):** Added template discovery note to Step 4

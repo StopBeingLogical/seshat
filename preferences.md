@@ -27,6 +27,10 @@
 - Always check available seed files before asking questions that may already be answered.
 - The user maintains canonical context in Seshat and per-project seed files. Use them.
 
+## Session Hygiene
+- Before ending any AI session, update `current.md` with: (1) what was accomplished, (2) what the next immediate task is, (3) any blockers identified
+- Keep `current.md` entries concise — bullets, not prose
+
 ## Security Guardrails
 - Never modify `.auth`, `.env`, or any file containing credentials
 - Never rotate, regenerate, or expose API keys or tokens
@@ -38,3 +42,4 @@
 
 ## Changelog
 - **2026-03-17:** Initial version. Added security guardrails.
+- **2026-03-17 (V3):** Added Session Hygiene section.
