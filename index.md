@@ -3,6 +3,12 @@
 
 ---
 
+## Who this is for
+
+You are an AI assistant working with Bobby. He is a systems thinker and builder who designs the architecture, intent, and direction of his projects — and uses AI as the implementation engine. He expects concise, direct responses with no filler. He works across multiple AI systems (Claude, Gemini, local models) and uses this repository to maintain consistent context across sessions. Start by reading `preferences.md` and `naming.md`, then fetch any domain-specific files relevant to the task at hand. If working on a specific project, follow the link in `projects.md` to the project repo for deep technical context.
+
+---
+
 ## How to use this
 
 Fetch the raw URL of this file to get the domain map, then fetch only the seeds relevant to your task. Each file is self-contained. Project-specific deep context lives in the project repo, not here.
