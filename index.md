@@ -5,13 +5,15 @@
 
 ## Who this is for
 
-You are an AI assistant working with Bobby. He is a systems thinker and builder who designs the architecture, intent, and direction of his projects — and uses AI as the implementation engine. He expects concise, direct responses with no filler. He works across multiple AI systems (Claude, Gemini, local models) and uses this repository to maintain consistent context across sessions. Start by reading `preferences.md` and `naming.md`, then fetch any domain-specific files relevant to the task at hand. If working on a specific project, follow the link in `projects.md` to the project repo for deep technical context.
+You are an AI assistant working with Bobby. He is a systems thinker and builder who designs the architecture, intent, and direction of his projects — and uses AI as the implementation engine. He expects concise, direct responses with no filler. He works across multiple AI systems (Claude, Gemini, local models) and uses this repository to maintain consistent context across sessions.
+
+**Start here:** Read `bootstrap.md` for the mandatory session startup sequence.
 
 ---
 
 ## How to use this
 
-Fetch the raw URL of this file to get the domain map, then fetch only the seeds relevant to your task. Each file is self-contained. Project-specific deep context lives in the project repo, not here.
+Fetch the raw URL of this file to get the domain map, then follow `bootstrap.md`. Each seed file is self-contained. Project-specific deep context lives in the project repo, not here.
 
 **This index:** `https://raw.githubusercontent.com/StopBeingLogical/seshat/main/index.md`
 
@@ -21,11 +23,14 @@ Fetch the raw URL of this file to get the domain map, then fetch only the seeds 
 
 | File | Scope | Raw URL |
 |:---|:---|:---|
+| [bootstrap.md](bootstrap.md) | Mandatory session startup sequence + local path reference | [raw](https://raw.githubusercontent.com/StopBeingLogical/seshat/main/bootstrap.md) |
+| [current.md](current.md) | Last known session state — read before asking what to work on | [raw](https://raw.githubusercontent.com/StopBeingLogical/seshat/main/current.md) |
+| [preferences.md](preferences.md) | Collaboration style, working preferences, security guardrails (living document) | [raw](https://raw.githubusercontent.com/StopBeingLogical/seshat/main/preferences.md) |
 | [naming.md](naming.md) | Naming conventions and all active asset names | [raw](https://raw.githubusercontent.com/StopBeingLogical/seshat/main/naming.md) |
 | [hardware.md](hardware.md) | Physical nodes — specs, roles, status | [raw](https://raw.githubusercontent.com/StopBeingLogical/seshat/main/hardware.md) |
 | [projects.md](projects.md) | Active software projects and infrastructure | [raw](https://raw.githubusercontent.com/StopBeingLogical/seshat/main/projects.md) |
-| [preferences.md](preferences.md) | Collaboration style and working preferences (living document) | [raw](https://raw.githubusercontent.com/StopBeingLogical/seshat/main/preferences.md) |
-| [infrastructure.md](infrastructure.md) | Source of truth locations, replication topology, access patterns for all projects | [raw](https://raw.githubusercontent.com/StopBeingLogical/seshat/main/infrastructure.md) |
+| [infrastructure.md](infrastructure.md) | Source of truth locations, replication topology, access patterns | [raw](https://raw.githubusercontent.com/StopBeingLogical/seshat/main/infrastructure.md) |
+| [templates/SESSION_SEED.md](templates/SESSION_SEED.md) | Template for per-project SESSION_SEED files | [raw](https://raw.githubusercontent.com/StopBeingLogical/seshat/main/templates/SESSION_SEED.md) |
 
 ---
 
@@ -39,6 +44,7 @@ Read that file to get the GitHub token and API pattern needed to create or updat
 ---
 
 ## Notes for models
-- Project deep context (architecture, stack, deployment, known issues) lives in the project repo, not here. `projects.md` links to those seeds.
-- `preferences.md` always applies regardless of task domain.
-- `naming.md` always applies when creating or referring to any named asset.
+- `bootstrap.md` defines the mandatory startup sequence — always follow it
+- `current.md` tells you what was last worked on — read it before asking the user for a status update
+- `preferences.md` and `naming.md` always apply regardless of task domain
+- Project deep context lives in the project repo. `projects.md` links to those seeds.

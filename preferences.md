@@ -27,7 +27,14 @@
 - Always check available seed files before asking questions that may already be answered.
 - The user maintains canonical context in Seshat and per-project seed files. Use them.
 
+## Security Guardrails
+- Never modify `.auth`, `.env`, or any file containing credentials
+- Never rotate, regenerate, or expose API keys or tokens
+- Never modify `.git/config` directly
+- Always flag destructive commands (`rm -rf`, `git push --force`, `git reset --hard`, `DROP TABLE`) and wait for explicit confirmation before running
+- Never commit secrets — if a file looks like it contains credentials, exclude it and flag it
+
 ---
 
 ## Changelog
-- **2026-03-17:** Initial version
+- **2026-03-17:** Initial version. Added security guardrails.
