@@ -35,7 +35,7 @@
 |:---|:---|:---|
 | `/Volumes/Shuttle/` | Logos | Primary working volume — all local project mirrors |
 | `/Volumes/Shuttle/projects/seshat/` | Logos | Seshat canonical source |
-| `/Volumes/Shuttle/projects/gamerepo/` | Logos | Nisaba local mirror (not canonical) |
+| `/Volumes/Shuttle/projects/nisaba/` | Logos | Nisaba local mirror (not canonical) |
 | `/Volumes/Shuttle/canonical seeds/` | Logos | Canonical seed archive (hardware inventory, software projects list) |
 | `/mnt/MemoryAlpha/nisaba/source/` | Atlas | Nisaba canonical source |
 | `/mnt/MemoryAlpha/nisaba/data/nisaba.db` | Atlas | Nisaba live database (never committed) |

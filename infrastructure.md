@@ -29,7 +29,7 @@ Logos (local clone, mirrors on pull)
 |:---|:---|:---|
 | **Atlas (source)** | `/mnt/MemoryAlpha/nisaba/source/` | Canonical working copy |
 | **Atlas (data)** | `/mnt/MemoryAlpha/nisaba/data/nisaba.db` | Live database (never committed) |
-| **Logos (mirror)** | `/Volumes/Shuttle/projects/gamerepo/` | Local clone, synced at milestones |
+| **Logos (mirror)** | `/Volumes/Shuttle/projects/nisaba/` | Local clone, synced at milestones |
 | **Forgejo (primary)** | `http://git.damnaliens.us/bobby/nisaba` | Primary remote (`origin`) |
 | **GitHub (backup)** | `https://github.com/StopBeingLogical/Nisaba` | Auto-mirror via Forgejo push mirror |
 
@@ -39,8 +39,8 @@ Logos (local clone, mirrors on pull)
 ```bash
 rsync -av --exclude='*.db' --exclude='imgcache' --exclude='._*' \
   truenas_admin@192.168.3.174:/mnt/MemoryAlpha/nisaba/source/ \
-  /Volumes/Shuttle/projects/gamerepo/
-cd /Volumes/Shuttle/projects/gamerepo
+  /Volumes/Shuttle/projects/nisaba/
+cd /Volumes/Shuttle/projects/nisaba
 git add -A && git commit -m "..." && git push
 ```
 
@@ -74,7 +74,7 @@ Quick map from GitHub repo to local clone on Logos. Use when you have shell acce
 
 | Project | Forgejo | GitHub | Local Path (Logos) | Canonical Source |
 |:---|:---|:---|:---|:---|
-| **NISABA** | `git.damnaliens.us/bobby/nisaba` | `StopBeingLogical/Nisaba` | `/Volumes/Shuttle/projects/gamerepo/` | Atlas (see above) |
+| **NISABA** | `git.damnaliens.us/bobby/nisaba` | `StopBeingLogical/Nisaba` | `/Volumes/Shuttle/projects/nisaba/` | Atlas (see above) |
 | **SESHAT** | `git.damnaliens.us/bobby/seshat` | `StopBeingLogical/seshat` | `/Volumes/Shuttle/projects/seshat/` | Logos (source of truth) |
 
 ---

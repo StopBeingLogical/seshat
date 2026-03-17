@@ -38,7 +38,7 @@ If you have filesystem access, prefer these local paths over remote URLs:
 | Resource | Local Path |
 |:---|:---|
 | Seshat repo | `/Volumes/Shuttle/projects/seshat/` |
-| Nisaba repo (mirror) | `/Volumes/Shuttle/projects/gamerepo/` |
+| Nisaba repo (mirror) | `/Volumes/Shuttle/projects/nisaba/` |
 | Nisaba source (canonical) | `truenas_admin@192.168.3.174:/mnt/MemoryAlpha/nisaba/source/` |
 | Auth / credentials | `/Volumes/Shuttle/projects/seshat/.auth` |
 | Canonical seed archive | `/Volumes/Shuttle/canonical seeds/` |
