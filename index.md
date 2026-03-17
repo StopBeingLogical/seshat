@@ -28,6 +28,15 @@ Fetch the raw URL of this file to get the domain map, then fetch only the seeds 
 
 ---
 
+## Editing this repo
+
+Auth credentials and API instructions are in a local file not tracked by git:
+`/Volumes/Shuttle/projects/seshat/.auth`
+
+Read that file to get the GitHub token and API pattern needed to create or update seed files.
+
+---
+
 ## Notes for models
 - Project deep context (architecture, stack, deployment, known issues) lives in the project repo, not here. `projects.md` links to those seeds.
 - `preferences.md` always applies regardless of task domain.

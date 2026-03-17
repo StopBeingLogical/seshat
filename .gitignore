@@ -1,3 +1,6 @@
+# Auth (local only, never commit)
+.auth
+
 # macOS
 .DS_Store
 .AppleDouble
