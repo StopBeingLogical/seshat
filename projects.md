@@ -4,6 +4,8 @@
 
 ---
 
+For source locations, replication topology, and access patterns see [infrastructure.md](https://raw.githubusercontent.com/StopBeingLogical/seshat/main/infrastructure.md).
+
 ## Active
 
 ### NISABA

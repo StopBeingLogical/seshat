@@ -25,6 +25,7 @@ Fetch the raw URL of this file to get the domain map, then fetch only the seeds 
 | [hardware.md](hardware.md) | Physical nodes — specs, roles, status | [raw](https://raw.githubusercontent.com/StopBeingLogical/seshat/main/hardware.md) |
 | [projects.md](projects.md) | Active software projects and infrastructure | [raw](https://raw.githubusercontent.com/StopBeingLogical/seshat/main/projects.md) |
 | [preferences.md](preferences.md) | Collaboration style and working preferences (living document) | [raw](https://raw.githubusercontent.com/StopBeingLogical/seshat/main/preferences.md) |
+| [infrastructure.md](infrastructure.md) | Source of truth locations, replication topology, access patterns for all projects | [raw](https://raw.githubusercontent.com/StopBeingLogical/seshat/main/infrastructure.md) |
 
 ---
 
