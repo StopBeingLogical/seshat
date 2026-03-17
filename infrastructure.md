@@ -68,6 +68,17 @@ git add -A && git commit -m "..." && git push
 
 ---
 
+## Filesystem Discovery
+
+Quick map from GitHub repo to local clone on Logos. Use when you have shell access and need to locate a project.
+
+| Project | Forgejo | GitHub | Local Path (Logos) | Canonical Source |
+|:---|:---|:---|:---|:---|
+| **NISABA** | `git.damnaliens.us/bobby/nisaba` | `StopBeingLogical/Nisaba` | `/Volumes/Shuttle/projects/gamerepo/` | Atlas (see above) |
+| **SESHAT** | `git.damnaliens.us/bobby/seshat` | `StopBeingLogical/seshat` | `/Volumes/Shuttle/projects/seshat/` | Logos (source of truth) |
+
+---
+
 ## Access
 
 ### Forgejo (git.damnaliens.us)
@@ -84,3 +95,4 @@ git add -A && git commit -m "..." && git push
 
 ## Changelog
 - **2026-03-17:** Initial version
+- **2026-03-17 (V2):** Added Filesystem Discovery table

@@ -11,6 +11,14 @@ You are an AI assistant working with Bobby. He is a systems thinker and builder 
 
 ---
 
+## Capability Check
+
+**Do you have shell / filesystem access to `/Volumes/Shuttle/`?**
+- **Yes** → use local paths defined in `bootstrap.md`. Faster, works offline.
+- **No (read-only session)** → use raw GitHub URLs only. Do NOT attempt to modify local files. Provide code or instructions for the user to apply manually.
+
+---
+
 ## How to use this
 
 Fetch the raw URL of this file to get the domain map, then follow `bootstrap.md`. Each seed file is self-contained. Project-specific deep context lives in the project repo, not here.
@@ -26,6 +34,7 @@ Fetch the raw URL of this file to get the domain map, then follow `bootstrap.md`
 | [bootstrap.md](bootstrap.md) | Mandatory session startup sequence + local path reference | [raw](https://raw.githubusercontent.com/StopBeingLogical/seshat/main/bootstrap.md) |
 | [current.md](current.md) | Last known session state — read before asking what to work on | [raw](https://raw.githubusercontent.com/StopBeingLogical/seshat/main/current.md) |
 | [preferences.md](preferences.md) | Collaboration style, working preferences, security guardrails (living document) | [raw](https://raw.githubusercontent.com/StopBeingLogical/seshat/main/preferences.md) |
+| [glossary.md](glossary.md) | Term → role → physical location map for all named assets | [raw](https://raw.githubusercontent.com/StopBeingLogical/seshat/main/glossary.md) |
 | [naming.md](naming.md) | Naming conventions and all active asset names | [raw](https://raw.githubusercontent.com/StopBeingLogical/seshat/main/naming.md) |
 | [hardware.md](hardware.md) | Physical nodes — specs, roles, status | [raw](https://raw.githubusercontent.com/StopBeingLogical/seshat/main/hardware.md) |
 | [projects.md](projects.md) | Active software projects and infrastructure | [raw](https://raw.githubusercontent.com/StopBeingLogical/seshat/main/projects.md) |
