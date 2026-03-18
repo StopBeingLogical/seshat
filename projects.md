@@ -36,8 +36,12 @@ For source locations, replication topology, and access patterns see [infrastruct
 ### Concierge
 - **Purpose:** Personal AI operating system — distributed across the network
 - **Status:** Planning / early architecture
-- **Layers:** Interactive (Logos) → Planner (Ergaster) → Router (Ergaster) → Foreman → Workbee (per node)
+- **Confirmed architectural direction:**
+  - Wide not Deep — each GPU is an independent island running its own model; no sharding
+  - Pull-based routing — nodes bid on work from a pool; Router posts agnostic chunks, nodes pull what they can handle
+  - Quorum diversity — multiple model lineages (different families/architectures) to prevent coherent failure modes
 - **Authority model:** Human intent is absolute; system proposes and surfaces risks
+- **Note:** Specific layer names, node roles, and terminology from planning sessions should be treated as proposals until explicitly confirmed
 
 ### Seshat
 - **Purpose:** This repo — AI context seed repository
