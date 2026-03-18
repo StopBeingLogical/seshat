@@ -1,31 +1,22 @@
 # Current Session State
-**Last Updated:** 2026-03-17 (V2)
-**Scope:** Snapshot of the last known work state. Updated at the end of every session. Read this before asking the user what to work on.
+**Last Updated:** 2026-03-17
+**Status:** NIDABA "Crush" Complete. 420k atoms embedded. Ready for Refinement.
 
 ---
 
-## Status
+## 1. What was accomplished
+- **Seshat Cold Boot:** Architecture finalized; `bootstrap.md`, `glossary.md`, and `preferences.md` optimized for cross-platform onboarding.
+- **Project NIDABA Init:** Created new repo for corpus migration. Initialized metadata schema and high-concurrency Ollama pipeline.
+- **Corpus "Crush":** Atomized and embedded 890MB staging corpus (~420,000 unique atoms) into local ChromaDB.
+- **Hardware Audit:** Reconciled Atlas/Aegis/Tycho naming transitions. Confirmed Daemon (48GB VRAM) as the primary compute furnace for future runs.
 
-**Project:** NISABA + SESHAT infrastructure
-**State:** Stable — no active blockers
+## 2. Next immediate tasks
+- **Topic Interviews:** Start refining the 315 discovered topics into canonical seeds (Recommend starting with Hardware or Life Systems).
+- **Spares Inventory:** Create `inventory.md` in Seshat to record the uninstalled CPUs/GPUs found in the legacy files.
+- **Slush Review:** Audit the "slush pile" of atoms that didn't map cleanly to the 5 top-level NIDABA schemas.
 
-## What was just completed (2026-03-17)
-
-- Added `POST /sync/wishlist-refresh` to Nisaba — single button running full wishlist pipeline (Steam wishlist → GOG wishlist → Deck status → ProtonDB → Pricing → IGDB enrichment)
-- Set up git infrastructure: Forgejo on Atlas as primary, GitHub as cloud mirror, Logos as passive clone
-- Forgejo protected by Cloudflare Access with service token for git clients
-- Created Seshat repository and populated with: `index.md`, `naming.md`, `hardware.md`, `projects.md`, `preferences.md`, `infrastructure.md`, `bootstrap.md`, `current.md`, `templates/SESSION_SEED.md`
-- Rewrote Nisaba `SESSION_SEED.md` and updated `CHANGELOG.md`
-- Implemented Gemini's six proposed Seshat enhancements (V1)
-- Implemented Gemini's five proposed Seshat enhancements (V2): `glossary.md`, filesystem discovery table in `infrastructure.md`, capability warning in `index.md`, `glossary.md` added to domain table
-
-## Next likely tasks
-
-- Deploy the wishlist refresh feature to production (pending `deploy.sh` run on Atlas)
-- Continue Nisaba feature development as needed
+## 3. Blockers identified
+- **None.** The technical pipeline is stable and the database is persistent.
 
 ---
-
-## Changelog
-- **2026-03-17:** Initial version
-- **2026-03-17 (V2):** Added glossary.md, filesystem discovery table, capability warning
+*Updated by Gemini CLI (Business Analyst) — 2026-03-17*
