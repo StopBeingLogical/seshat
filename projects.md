@@ -17,6 +17,13 @@ For source locations, replication topology, and access patterns see [infrastruct
 - **Repo:** [Forgejo](http://git.damnaliens.us/bobby/nisaba) · [GitHub](https://github.com/StopBeingLogical/Nisaba)
 - **Deep context:** `SESSION_SEED.md` in the Nisaba repo
 
+### NIDABA
+- **Purpose:** Corpus migration and knowledge atomization pipeline
+- **Status:** Active — initial corpus run complete (~420k atoms embedded)
+- **Stack:** Ollama (local LLMs), ChromaDB (vector store), high-concurrency pipeline
+- **Primary compute:** Daemon (48GB VRAM)
+- **Goal:** Atomize and embed personal corpus; refine into canonical topic seeds
+
 ### ENKI
 - **Purpose:** Intent Engineering / JIT world generation research
 - **Status:** Exploratory
@@ -40,3 +47,4 @@ For source locations, replication topology, and access patterns see [infrastruct
 
 ## Changelog
 - **2026-03-17:** Initial version
+- **2026-03-18:** Added NIDABA

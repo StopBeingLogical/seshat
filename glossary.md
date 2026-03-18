@@ -11,6 +11,7 @@
 | **Logos** | Primary Workstation | macOS (MBP M1 Max, 64GB) | LAN + portable | `/Volumes/Shuttle/` (local SSD) |
 | **Atlas** | Storage / Services | TrueNAS SCALE (Ryzen 5700G, 64GB, 3×12TB RaidZ1) | `192.168.3.174` | `/mnt/MemoryAlpha/` |
 | **Daemon** | Headless CUDA Node | Linux (i7-12700F, 32GB, 2× Tesla P100, 1× 5060 Ti) | LAN | — |
+| **Aegis** | Firewall / VPN / Router | — (vacant role, no hardware assigned) | — | — |
 | **Ergaster** | Planner / Router | Windows (Acemagic i9-13900HX, 64GB) | LAN | — |
 | **Kratos** | High-Perf Compute | Linux (Ryzen 7600X, RX 7800 XT, 32GB DDR5) | LAN | — |
 | **Praxis** | Gaming | SteamOS (Steam Deck) | LAN + portable | — |
@@ -23,6 +24,7 @@
 | Name | Domain | Role | Running At | Canonical Source |
 |:---|:---|:---|:---|:---|
 | **NISABA** | Sumerian | Game library + wishlist manager | `nisaba.damnaliens.us` | Atlas: `/mnt/MemoryAlpha/nisaba/source/` |
+| **NIDABA** | Sumerian | Corpus atomization + knowledge pipeline | Local (Daemon) | TBD |
 | **ENKI** | Sumerian | Intent Engineering / JIT world generation | Exploratory | — |
 | **Concierge** | — | Personal AI operating system (distributed) | Planning | — |
 | **Seshat** | Egyptian | AI context seed repository | `github.com/StopBeingLogical/seshat` | Logos: `/Volumes/Shuttle/projects/seshat/` |
@@ -56,3 +58,4 @@ Names persist across hardware changes. Systems are named for the role they inhab
 
 ## Changelog
 - **2026-03-17:** Initial version
+- **2026-03-18:** Added NIDABA, Aegis (vacant role)

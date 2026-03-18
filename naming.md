@@ -29,12 +29,24 @@ Names are chosen based on the asset's domain for immediate categorical recogniti
 | **Praxis** | Greek | Gaming | Steam Deck |
 | **Gramma** | Greek | Note-taking | iPad Air M3 |
 
-## Hardware — Candidate / Decommissioned
+## Hardware — Vacant Roles
+
+| Name | Root | Role | Notes |
+|:---|:---|:---|:---|
+| **Aegis** | Greek | Firewall / VPN Endpoint / Router | No hardware assigned |
+
+## Hardware — Idle / Candidate
 
 | Name | Root | Status | Notes |
 |:---|:---|:---|:---|
 | **Noesis** | Greek | Idle | Dell Latitude 7420 |
 | **Ephemera** | Greek | Idle | MacBook Air M2 |
+
+## Hardware — Retired Roles
+
+| Name | Root | Notes |
+|:---|:---|:---|
+| **Tycho** | Greek | NAS Storage — absorbed by Atlas |
 
 ---
 
@@ -43,6 +55,7 @@ Names are chosen based on the asset's domain for immediate categorical recogniti
 | Name | Root | Purpose |
 |:---|:---|:---|
 | **NISABA** | Sumerian | Personal game library and wishlist manager — [github.com/StopBeingLogical/Nisaba](https://github.com/StopBeingLogical/Nisaba) |
+| **NIDABA** | Sumerian | Corpus migration + knowledge atomization pipeline (Ollama / ChromaDB) |
 | **ENKI** | Sumerian | Intent Engineering / JIT world generation research |
 
 ---
