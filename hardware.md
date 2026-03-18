@@ -9,8 +9,8 @@
 | Name | Root | Role | Specs |
 |:---|:---|:---|:---|
 | **Logos** | Greek | Primary Workstation | MacBook Pro M1 Max (10c/24c/16c), 64GB RAM |
-| **Atlas** | Greek | Storage / Services | Ryzen 5700G, 64GB RAM, 3×12TB RaidZ1, TrueNAS SCALE |
-| **Daemon** | Greek | Headless CUDA | i7-12700F, 32GB RAM, 2× Tesla P100, 1× 5060 Ti |
+| **Atlas** | Greek | Storage / Services | Ryzen 5700G, 64GB RAM, 3×12TB RaidZ1, LG WH16NS40, TrueNAS SCALE |
+| **Daemon** | Greek | Headless CUDA | i7-12700F, 32GB RAM, 2× Tesla P100, 1× 5060 Ti 16GB|
 | **Ergaster** | Latin | Planner / Router | Acemagic M1 (i9-13900HX), 64GB RAM |
 | **Kratos** | Greek | High-Perf Compute | Ryzen 7600X, RX 7800 XT (16GB), 32GB DDR5-6000 |
 | **Praxis** | Greek | Gaming | Steam Deck |
