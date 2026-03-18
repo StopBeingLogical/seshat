@@ -21,7 +21,7 @@ For source locations, replication topology, and access patterns see [infrastruct
 - **Purpose:** Corpus migration and knowledge atomization pipeline
 - **Status:** Active — initial corpus run complete (~420k atoms embedded)
 - **Stack:** Ollama (local LLMs), ChromaDB (vector store), high-concurrency pipeline
-- **Primary compute:** Daemon (48GB VRAM)
+- **Primary compute:** Logos (M1 Max, Metal acceleration) — Daemon recommended for future runs >1GB
 - **Goal:** Atomize and embed personal corpus; refine into canonical topic seeds
 
 ### ENKI

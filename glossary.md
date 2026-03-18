@@ -24,7 +24,7 @@
 | Name | Domain | Role | Running At | Canonical Source |
 |:---|:---|:---|:---|:---|
 | **NISABA** | Sumerian | Game library + wishlist manager | `nisaba.damnaliens.us` | Atlas: `/mnt/MemoryAlpha/nisaba/source/` |
-| **NIDABA** | Sumerian | Corpus atomization + knowledge pipeline | Local (Daemon) | TBD |
+| **NIDABA** | Sumerian | Corpus atomization + knowledge pipeline | Local (Logos) | `/Volumes/Shuttle/projects/nidaba/` |
 | **ENKI** | Sumerian | Intent Engineering / JIT world generation | Exploratory | — |
 | **Concierge** | — | Personal AI operating system (distributed) | Planning | — |
 | **Seshat** | Egyptian | AI context seed repository | `github.com/StopBeingLogical/seshat` | Logos: `/Volumes/Shuttle/projects/seshat/` |
@@ -37,6 +37,7 @@
 |:---|:---|:---|
 | `/Volumes/Shuttle/` | Logos | Primary working volume — all local project mirrors |
 | `/Volumes/Shuttle/projects/seshat/` | Logos | Seshat canonical source |
+| `/Volumes/Shuttle/projects/nidaba/` | Logos | NIDABA source + ChromaDB (`tracker/chroma_db/`) |
 | `/Volumes/Shuttle/projects/nisaba/` | Logos | Nisaba local mirror (not canonical) |
 | `/Volumes/Shuttle/canonical seeds/` | Logos | Canonical seed archive (hardware inventory, software projects list) |
 | `/mnt/MemoryAlpha/nisaba/source/` | Atlas | Nisaba canonical source |
