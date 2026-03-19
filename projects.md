@@ -23,6 +23,8 @@ For source locations, replication topology, and access patterns see [infrastruct
 - **Stack:** Ollama (local LLMs), ChromaDB (vector store), high-concurrency pipeline
 - **Primary compute:** Logos (M1 Max, Metal acceleration) — Daemon recommended for future runs >1GB
 - **Goal:** Atomize and embed personal corpus; refine into canonical topic seeds
+- **Repo:** [Forgejo](ssh://git@192.168.3.174:2222/bobby/Nidaba.git) · [GitHub](https://github.com/StopBeingLogical/Nidaba)
+- **Deep context:** `SESSION_SEED.md` in the Nidaba repo
 
 ### ENKI
 - **Purpose:** Intent Engineering / JIT world generation research
